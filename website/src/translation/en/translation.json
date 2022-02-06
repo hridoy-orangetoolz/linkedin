@@ -1,0 +1,112 @@
+{
+  "header": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "about": "About",
+    "contact": "Contact",
+    "contactUrl": "https://www.linkedin.com/in/emma-quetel/?locale=en_US",
+    "disconnect": "Log Out",
+    "connect": "Log In",
+    "language": {
+      "english": "English",
+      "french": "French"
+    },
+    "language-small": {
+      "english": "En",
+      "french": "Fr"
+    }
+  },
+  "about": {
+    "text": {
+      "usage": [
+        "1 - Log in / Sign in with ==Linkedin== on the home page 📑",
+        "2 - ==Schedule your post== by clicking on the new post button, or by clicking on any day you would like your post to be scheduled 📅",
+        "3 - Configure your post according to the ==guide below==, and you’re done! 👍"
+      ],
+      "guide": [
+        "1 - The 2 ==required fields== to schedule a post are content and date ⌚",
+        "2 - You can also add a ==title, a link and a description==, the post will look like the picture on the right 👉",
+        "3 - Note that you can ==update/delete== your post anytime by clicking on it on the calendar 💪"
+      ],
+      "team": [
+        "We are a team of passionate CS students from France 🥐",
+        "We wanted to solve a simple problem which is automating Linkedin posting for free, and this is where [it all started](https://github.com/medartus/social-scheduler-create-post) ! 🚀",
+        "We love challenging our skills so checkout our other projects [Swizzl](www.swizzl.fr), [BikeStations](https://bikestations.netlify.com/) and [Loa](https://loabot.netlify.com/) 🤖"
+      ]
+    },
+    "title": {
+      "usage": "How to use it?",
+      "guide": "Guide",
+      "team": "About the team"
+    }
+  },
+  "calendar": {
+    "date": "Date: ",
+    "content": "Content: ",
+    "publish": "Publisher: ",
+    "schedule": "Schedule your next post",
+    "automate": "Automating your feed is just one click away",
+    "upcoming": "UPCOMING POSTS",
+    "create": "CREATE POST",
+    "messageCalendar": {
+      "allDay": "All Day",
+      "previous": "back",
+      "next": "Next",
+      "today": "Today",
+      "month": "Month",
+      "week": "Week",
+      "day": "Day",
+      "agenda": "Agenda",
+      "date": "Date",
+      "time": "Hour",
+      "showMore": "+ {{total}} more"
+    }
+  },
+  "home": {
+    "go": "LET'S GO",
+    "slogan": "Free Linkedin post scheduling"
+  },
+  "creationModal": {
+    "validDate": {
+      "valid": "Please input a valid date.",
+      "before": "The date musn't be before now"
+    },
+    "deleteDate": {
+      "confirm": "Are you sure you want to delete that post ?",
+      "delete": "Delete",
+      "cancel": "Cancel"
+    },
+    "publicationTime": {
+      "quarter": "Posts are scheduled every 15 minutes."
+    },
+    "input": {
+      "date": "Publication date",
+      "time": "Publication time",
+      "shareCommentary": "Text",
+      "mediaUrl": "Link",
+      "mediaTitle": "Title",
+      "mediaDescription": "Description",
+      "visibility": "Visibility",
+      "visibilityValue": {
+        "public": "Public",
+        "connexions": "Connexions"
+      }
+    },
+    "button": {
+      "delete": "Delete",
+      "update": "Update",
+      "create": "Create",
+      "uploadContent": "Upload content",
+      "deleteContent": "Delete content"
+    },
+    "text": {
+      "create": "Post creation",
+      "schedule": "Post scheduled for the {{rawDate}} at {{rawTime}}",
+      "publishAs": "Publisher:"
+    },
+    "upload": {
+      "notSupportedFormat": "The file format is not supported",
+      "fail": "Image Upload impossible!"
+    }
+  }
+}

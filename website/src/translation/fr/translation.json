@@ -1,0 +1,112 @@
+{
+  "header": {
+    "home": "Accueil",
+    "dashboard": "Tableau de bord",
+    "about": "À Propos",
+    "contact": "Contact",
+    "contactUrl": "https://www.linkedin.com/in/emma-quetel/",
+    "disconnect": "Déconnexion",
+    "connect": "Connexion",
+    "language": {
+      "english": "Anglais",
+      "french": "Français"
+    },
+    "language-small": {
+      "english": "En",
+      "french": "Fr"
+    }
+  },
+  "about": {
+    "text": {
+      "usage": [
+        "1 - Connexion / Inscription avec ==Linkedin== sur la page d'accueil 📑",
+        "2 - ==Planifiez votre publication== en cliquant sur le boutton de création, ou en cliquant sur n'importe quel jour sur lequel vous voulez planifier votre publication 📅",
+        "3 - Configurez votre publication en fonction du ==guide ci-dessous==, et c'est fini ! 👍"
+      ],
+      "guide": [
+        "1 - Les 2 ==champs requis== pour programmer une publication sont le contenu et la date ⌚",
+        "2 - Vous pouvez aussi ajouter ==un titre, un lien et une description==, la publication ressemblera à l'image sur la droite 👉",
+        "3 - Notez que vous pouvez ==Mettre à jour / supprimer== votre publication n'importe quand en cliquant dessus dans le callendrier 💪"
+      ],
+      "team": [
+        "Nous sommes une équipe française de développeurs passionés 🥐",
+        "Nous voulons résoudre un problème simple qu'est l'automatisation de publication sur LinkedIn gratuitement, et [c'est comme cela que tout a commencé...](https://github.com/medartus/social-scheduler-create-post) ! 🚀",
+        "Nous aimons tester nos compétences, donc venez voir nos autres projets [Swizzl](www.swizzl.fr), [BikeStations](https://bikestations.netlify.com/) et [Loa](https://loabot.netlify.com/) 🤖"
+      ]
+    },
+    "title": {
+      "usage": "Comment l'utiliser ?",
+      "guide": "Guide",
+      "team": "À Propos de l'équipe"
+    }
+  },
+  "calendar": {
+    "date": "Date : ",
+    "content": "Contenu : ",
+    "publish": "Publicateur : ",
+    "schedule": "Planifier vos publications",
+    "automate": "Automatisez votre flux en juste un clic",
+    "upcoming": "PROCHAINS POSTS",
+    "create": "NOUVEAU POST",
+    "messageCalendar": {
+      "allDay": "Journée",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "today": "Aujourd'hui",
+      "month": "Mois",
+      "week": "Semaine",
+      "day": "Jour",
+      "agenda": "Agenda",
+      "date": "Date",
+      "time": "heure",
+      "showMore": "+ {{total}} de plus"
+    }
+  },
+  "home": {
+    "go": "C'EST PARTI",
+    "slogan": "Planificateur gratuit de publication Linkedin"
+  },
+  "creationModal": {
+    "validDate": {
+      "valid": "Merci de mettre une date valide",
+      "past": "La date ne doit pas être antérieur à maintenant"
+    },
+    "deleteDate": {
+      "confirm": "Etes vous sur de vouloir supprimer ce post ?",
+      "delete": "Supprimer",
+      "cancel": "Annuler"
+    },
+    "publicationTime": {
+      "quarter": "Les messages sont postés toutes les 15 minutes."
+    },
+    "input": {
+      "date": "Date de publication",
+      "time": "Heure de publication",
+      "shareCommentary": "Texte",
+      "mediaUrl": "Lien",
+      "mediaTitle": "Titre",
+      "mediaDescription": "Description",
+      "visibility": "Visibilité",
+      "visibilityValue": {
+        "public": "Publique",
+        "connexions": "Relations"
+      }
+    },
+    "button": {
+      "delete": "Suppresion",
+      "update": "Mise à jour",
+      "create": "Creation",
+      "uploadContent": "Upload contenu",
+      "deleteContent": "Supprimer contenu"
+    },
+    "text": {
+      "create": "Création de la publication",
+      "schedule": "Publication prévue pour le {{rawDate}} à {{rawTime}}",
+      "publishAs": "Publicateur :"
+    },
+    "upload": {
+      "notSupportedFormat": "Le format du fichier n'est pas supporté",
+      "fail": "Upload de l'image impossible !"
+    }
+  }
+}

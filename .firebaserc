@@ -1,0 +1,27 @@
+{
+  "targets": {
+    "dev-social-scheduler-create-post": {
+      "hosting": {
+        "app": [
+          "social-scheduler-create-post"
+        ],
+        "landing": [
+          "social-scheduler-create-post"
+        ]
+      }
+    },
+    "social-scheduler-create-post": {
+      "hosting": {
+        "landing": [
+          "social-scheduler-create-post"
+        ],
+        "app": [
+          "social-scheduler-create-post"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "social-scheduler-create-post"
+  }
+}

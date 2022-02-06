@@ -1,0 +1,41 @@
+{
+  "name": "linkedin-auth-functions",
+  "description": "Authenticate with LinkedIn Firebase Functions sample",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "firebase-admin": "^9.4.2",
+    "firebase-functions": "^3.3.0",
+    "juice": "^6.0.0",
+    "node-linkedin": "^0.5.4",
+    "nodemailer": "^6.4.2",
+    "raw-body": "^2.4.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^4.13.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "firebase-functions-test": "^0.1.7",
+    "mocha": "^7.2.0",
+    "coveralls": "^3.0.11",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^15.0.1"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --max-warnings=0 .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "test": "nyc mocha --reporter spec",
+    "test:coverage": "npm test && nyc report --reporter=text-lcov | coveralls"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "private": true
+}
